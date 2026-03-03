@@ -1,0 +1,15 @@
+# Obsidian 工作区状态（per-machine，不需要同步）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian 插件编译产物（体积大，由插件市场管理）
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+
+# Python 构建产物（后续建库脚本用到）
+__pycache__/
+*.pyc
+.env
+
+# 向量数据库本地存储（不入库）
+qdrant_storage/
