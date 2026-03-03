@@ -14,5 +14,3 @@ __pycache__/
 # 向量数据库本地存储（不入库）
 qdrant_storage/
 
-# 其他 Obsidian vault 子目录（非本知识库内容）
-FF14/
