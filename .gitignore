@@ -14,3 +14,7 @@ __pycache__/
 # 向量数据库本地存储（不入库）
 qdrant_storage/
 
+# 这两个插件的 data.json 里有 API key 和证书私钥，不能入库（任何目录下的 .obsidian 都算）
+**/.obsidian/plugins/mcp-tools/data.json
+**/.obsidian/plugins/obsidian-local-rest-api/data.json
+
